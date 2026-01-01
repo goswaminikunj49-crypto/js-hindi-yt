@@ -16,18 +16,47 @@
 // // console.log(b);
 // // console.log(c);
 
+function one() {
+    const username = "nikunj"
 
-
-function one () {
-    const username = "nikk"
-
-    function two () {
-        const website = "youtube"
+    function two() {
+        const website = "youtube.com/nikunj"
         console.log(username);
         
     }
     // console.log(website);
-    
+
     two()
+    
 }
-one()
+// one()
+
+
+if (true) {
+    const username = "nikunj"
+    if (username === "nikunj") {
+        const website = " youtube.com/nikunj"
+       // console.log(username + website);
+        
+    }
+    // console.log(website);
+    
+    
+}
+// console.log(username); 
+
+
+
+// +++++++++++++++++++++++++++++++++++++ INTRESTING ++++++++++++++++++++++++++++++++++++++++
+
+console.log(addone(5));
+ 
+
+function addone(num) {
+    return num + 1
+}
+addone(5)
+
+const addTwo = function (num) {
+    return num + 2
+}
